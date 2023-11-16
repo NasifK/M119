@@ -1,6 +1,9 @@
 # MQTT code inspired by Warren's MQTT code he presented in discussion. Thanks Warren!
 # https://github.com/warrenwallis/ECEM119/tree/main/M2
 
+# pong implentation
+# https://www.geeksforgeeks.org/create-pong-game-using-python-turtle/
+
 import paho.mqtt.client as mqtt
 import numpy as np
 import time

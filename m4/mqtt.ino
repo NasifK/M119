@@ -1,6 +1,8 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
 #include <Arduino_LSM6DS3.h>
+// MQTT code inspired by Warren's MQTT code he presented in discussion. Thanks Warren!
+// https://github.com/warrenwallis/ECEM119/tree/main/M2
 
 // WiFi
 const char *ssid = "KatN"; // Enter your WiFi name
